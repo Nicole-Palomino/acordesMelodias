@@ -1,0 +1,100 @@
+header {
+    height: 110px;
+    background: #10E762;
+}
+
+header .container h1 {
+    padding: 8px;
+    font-size: 4rem;
+    font-family: comic sans MS;
+}
+
+.nav-link {
+    margin-left: 25px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+.images {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.card {
+    width: 70%;
+}
+
+.card .card-img-top {
+    width: 75%;
+    margin: 5px 38px;
+    height: 160px;
+}
+
+.enlaces {
+    text-decoration: none;
+}
+
+.list-group {
+    margin-bottom: 50px;
+}
+
+.tit {
+    height: 50px;
+    background: #10E762;
+}
+
+.tit h2 {
+    padding: 5px;
+    color: #000;
+}
+
+.canciones {
+    margin-top: 20px;
+}
+
+.text-body {
+    font-family: sans-serif;
+}
+
+footer {
+    margin-top: 50px;
+    height: 55px;
+    bottom: 0;
+    position: relative;
+}
+
+.pie {
+    padding: 5px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    
+    header {
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    header {
+        height: 180px;
+    }
+}
+
+@media (max-width: 360px) {
+    header {
+        height: 200px;
+    }
+}
