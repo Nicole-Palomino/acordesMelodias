@@ -10,14 +10,13 @@ header .container h1 {
 }
 
 .nav-link {
-    margin-left: 25px;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
 }
 
-.images {
-    margin-top: 50px;
-    margin-bottom: 80px;
+.election {
+    background-color: #10E762;
+    border-radius: 10px;
 }
 
 .bd-placeholder-img {
@@ -28,37 +27,39 @@ header .container h1 {
     user-select: none;
 }
 
-.contenido {
+.melodias {
     margin-top: 50px;
+}
+
+.float-end img{
+    width: 30px;
+    height: 20px;
 }
 
 .enlaces {
     text-decoration: none;
 }
 
+.canciones {
+    margin-top: 20px;
+}
+
 .list-group {
     margin-bottom: 50px;
 }
 
-.part, .part-1 {
-    margin-top: 40px;
-} 
-
-.text-center a i {
-    font-size: 25px;
-}
-
-.text-center button {
-    border-radius: 20px; 
-}
-
 .article {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
-.tit img {
-    margin-top: 70px;
-    transform: scale(1.2);
+.tit {
+    height: 50px;
+    background: #10E762;
+}
+
+.tit h2 {
+    padding: 5px;
+    color: #000;
 }
 
 footer {

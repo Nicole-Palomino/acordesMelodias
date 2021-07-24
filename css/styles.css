@@ -10,9 +10,13 @@ header .container h1 {
 }
 
 .nav-link {
-    margin-left: 25px;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+}
+
+.election {
+    background-color: #10E762;
+    border-radius: 10px;
 }
 
 .images {
@@ -38,12 +42,25 @@ header .container h1 {
     height: 160px;
 }
 
+.float-end img{
+    width: 30px;
+    height: 20px;
+}
+
 .enlaces {
     text-decoration: none;
 }
 
 .list-group {
     margin-bottom: 50px;
+}
+
+.contenido {
+    margin-bottom: 20px;
+}
+
+.article {
+    margin-bottom: 40px;
 }
 
 .tit {
@@ -62,6 +79,10 @@ header .container h1 {
 
 .text-body {
     font-family: sans-serif;
+}
+
+.two {
+    margin-top: 50px;
 }
 
 footer {
