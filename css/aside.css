@@ -1,14 +1,18 @@
+/* CABECERA */
 header {
-    height: 110px;
-    background: #10E762;
+    height: 450px;
+    background: url('../images/music.png');
+    background-repeat: no-repeat;
 }
 
 header .container h1 {
     padding: 8px;
+    color: #10E762;
     font-size: 4rem;
     font-family: comic sans MS;
 }
 
+/* MENU DE NAVEGACION */
 .nav-link {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
@@ -27,29 +31,19 @@ header .container h1 {
     user-select: none;
 }
 
-.melodias {
+/* BUSQUEDA */
+section form .form-control {
+    margin: 40px 270px;
+    width: 50%;
+}
+
+/* SECTION */
+.search {
     margin-top: 50px;
-}
-
-.float-end img{
-    width: 30px;
-    height: 20px;
-}
-
-.enlaces {
-    text-decoration: none;
 }
 
 .canciones {
     margin-top: 20px;
-}
-
-.list-group {
-    margin-bottom: 50px;
-}
-
-.article {
-    margin-bottom: 40px;
 }
 
 .tit {
@@ -62,10 +56,20 @@ header .container h1 {
     color: #000;
 }
 
-.search {
-    margin-top: 50px;
+.enlaces {
+    text-decoration: none;
 }
 
+.list-group {
+    margin-bottom: 50px;
+}
+
+.float-end img{
+    width: 30px;
+    height: 20px;
+}
+
+/* PIE DE PAGINA */
 footer {
     margin-top: 50px;
     height: 55px;
